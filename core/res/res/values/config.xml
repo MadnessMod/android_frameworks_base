@@ -1809,6 +1809,7 @@
         <item>power</item>
         <item>bugreport</item>
         <item>users</item>
+        <item>silent</item>
     </string-array>
 
     <!-- default telephony hardware configuration for this platform.
