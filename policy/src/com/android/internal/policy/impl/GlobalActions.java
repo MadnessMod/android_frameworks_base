@@ -332,7 +332,9 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
             // Add here so we don't add more than one.
             addedKeys.add(actionKey);
         }
-
+        
+        //workaround to force silent in power menu
+        mItems.add(mSilentModeAction);
         mAdapter = new MyAdapter();
 
         AlertParams params = new AlertParams(mContext);
