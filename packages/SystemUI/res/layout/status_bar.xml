@@ -83,6 +83,16 @@
             android:orientation="horizontal"
             >
 
+            <com.android.systemui.statusbar.policy.Clock
+                android:id="@+id/clock"
+                android:textAppearance="@style/TextAppearance.StatusBar.Clock"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:paddingStart="7dp"
+                android:gravity="center|start"
+                />
+
             <include layout="@layout/system_icons" />
 
             <com.android.systemui.BatteryLevelTextView android:id="@+id/battery_level_text"
@@ -94,15 +104,7 @@
                 android:visibility="gone"
                 android:textSize="@dimen/battery_level_text_size" />
 
-            <com.android.systemui.statusbar.policy.Clock
-                android:id="@+id/clock"
-                android:textAppearance="@style/TextAppearance.StatusBar.Clock"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:singleLine="true"
-                android:paddingStart="7dp"
-                android:gravity="center|start"
-                />
+            
         </com.android.keyguard.AlphaOptimizedLinearLayout>
     </LinearLayout>
 
