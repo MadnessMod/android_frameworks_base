@@ -90,7 +90,7 @@
                 android:layout_height="match_parent"
                 android:singleLine="true"
                 android:paddingStart="7dp"
-                android:gravity="center|start"
+                android:gravity="start|center"
                 />
 
             <include layout="@layout/system_icons" />
