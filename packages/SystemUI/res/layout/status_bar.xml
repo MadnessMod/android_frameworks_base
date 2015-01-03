@@ -76,22 +76,22 @@
                     android:orientation="horizontal"/>
             </com.android.keyguard.AlphaOptimizedLinearLayout>
         </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
-
+        
+        <com.android.systemui.statusbar.policy.Clock
+                android:id="@+id/clock"
+                android:textAppearance="@style/TextAppearance.StatusBar.Clock"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:paddingStart="7dp"
+                android:gravity="center"
+                />
+                
         <com.android.keyguard.AlphaOptimizedLinearLayout android:id="@+id/system_icon_area"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             >
-
-            <com.android.systemui.statusbar.policy.Clock
-                android:id="@+id/clock"
-                android:textAppearance="@style/TextAppearance.StatusBar.Clock"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:singleLine="true"
-                android:paddingStart="7dp"
-                android:gravity="start|center"
-                />
 
             <include layout="@layout/system_icons" />
 
