@@ -101,7 +101,7 @@
                 android:layout_height="match_parent"
                 android:singleLine="true"
                 android:paddingStart="7dp"
-                android:gravity="center_vertical|start"
+                android:gravity="center|start"
                 />
         </com.android.keyguard.AlphaOptimizedLinearLayout>
     </LinearLayout>
