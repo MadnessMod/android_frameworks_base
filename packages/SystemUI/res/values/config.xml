@@ -118,7 +118,7 @@
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default" translatable="false">
-        wifi,bt,inversion,cell,airplane,rotation,flashlight,location,cast,hotspot
+        wifi,bt,cell,airplane,rotation,flashlight,location,cast
     </string>
 
     <!-- The tiles to display in QuickSettings -->
@@ -229,13 +229,13 @@
     <bool name="config_keyguardUserSwitcher">false</bool>
 
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
-    <bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_display_state_supported">false</bool>
 
     <!-- Doze: should the significant motion sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_significant_motion">false</bool>
 
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
-    <bool name="doze_pulse_on_pick_up">true</bool>
+    <bool name="doze_pulse_on_pick_up">false</bool>
 
     <bool name="config_showSdcardAbsentIndicator">false</bool>
     <bool name="config_showWifiIndicatorWhenEnabled">false</bool>
