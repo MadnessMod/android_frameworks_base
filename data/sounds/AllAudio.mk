@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/ogg/Andromeda.ogg:system/media/audio/ringtones/Andromeda.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Aquila.ogg:system/media/audio/ringtones/Aquila.ogg \
     $(LOCAL_PATH)/ringtones/ogg/ArgoNavis.ogg:system/media/audio/ringtones/ArgoNavis.ogg \
-    $(LOCAL_PATH)/ringtones/ogg/Atria.ogg:system/media/audio/ringtones/Atria.ogg \
     $(LOCAL_PATH)/ringtones/BOOTES.ogg:system/media/audio/ringtones/BOOTES.ogg \
     $(LOCAL_PATH)/newwavelabs/Backroad.ogg:system/media/audio/ringtones/Backroad.ogg \
     $(LOCAL_PATH)/newwavelabs/BeatPlucker.ogg:system/media/audio/ringtones/BeatPlucker.ogg \
@@ -175,7 +174,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/ogg/Pegasus.ogg:system/media/audio/ringtones/Pegasus.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Perseus.ogg:system/media/audio/ringtones/Perseus.ogg \
     $(LOCAL_PATH)/newwavelabs/Playa.ogg:system/media/audio/ringtones/Playa.ogg \
-    $(LOCAL_PATH)/ringtones/ogg/Pyxis.ogg:system/media/audio/ringtones/Pyxis.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Rasalas.ogg:system/media/audio/ringtones/Rasalas.ogg \
     $(LOCAL_PATH)/newwavelabs/Revelation.ogg:system/media/audio/ringtones/Revelation.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Rigel.ogg:system/media/audio/ringtones/Rigel.ogg \
@@ -229,7 +227,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/material/ogg/Ganymede.ogg:system/media/audio/ringtones/Ganymede.ogg \
     $(LOCAL_PATH)/ringtones/material/ogg/Luna.ogg:system/media/audio/ringtones/Luna.ogg \
     $(LOCAL_PATH)/ringtones/material/ogg/Oberon.ogg:system/media/audio/ringtones/Oberon.ogg \
-    $(LOCAL_PATH)/ringtones/material/ogg/Phobos.ogg:system/media/audio/ringtones/Phobos.oggg \
+    $(LOCAL_PATH)/ringtones/material/ogg/Phobos.ogg:system/media/audio/ringtones/Phobos.ogg \
     $(LOCAL_PATH)/ringtones/material/ogg/Pyxis.ogg:system/media/audio/ringtones/Pyxis.ogg \
     $(LOCAL_PATH)/ringtones/material/ogg/Sedna.ogg:system/media/audio/ringtones/Sedna.ogg \
     $(LOCAL_PATH)/ringtones/material/ogg/Titania.ogg:system/media/audio/ringtones/Titania.ogg \
@@ -245,6 +243,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/material/ogg/Rhea.ogg:system/media/audio/notifications/Rhea.ogg \
     $(LOCAL_PATH)/notifications/material/ogg/Salacia.ogg:system/media/audio/notifications/Salacia.ogg \
     $(LOCAL_PATH)/notifications/material/ogg/Tethys.ogg:system/media/audio/notifications/Tethys.ogg \
-    $(LOCAL_PATH)/notifications/material/ogg/Titan.ogg:system/media/audio/notifications/Titan.ogg \
-
-    
+    $(LOCAL_PATH)/notifications/material/ogg/Titan.ogg:system/media/audio/notifications/Titan.ogg
