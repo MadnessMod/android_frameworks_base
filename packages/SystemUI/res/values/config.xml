@@ -290,4 +290,3 @@
     <!-- Whether to enable data switch or not -->
     <bool name="config_enableDataSwitch">false</bool>
 </resources>
-
